@@ -4,9 +4,9 @@
   "description": "",
   "main": "aboutus.html ",
   "scripts": {
-    "start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/sohaila-mohamed/About-US#readme",
   "devDependencies": {
     "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
   }
 }
